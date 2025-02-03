@@ -1,23 +1,14 @@
 import React from 'react';
-import './App.css';
+import RomanNumeralConverter from './components/romanNumeralConverter';
+import { Provider, defaultTheme, Flex } from '@adobe/react-spectrum';
 
-  function App() {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider theme={defaultTheme} height='100vh' width='100vw'>
+      <Flex alignItems='center' justifyContent='center' height='100vh'>
+        <RomanNumeralConverter></RomanNumeralConverter>
+      </Flex>
+    </Provider>
   );
 }
 

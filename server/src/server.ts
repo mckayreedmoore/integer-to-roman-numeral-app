@@ -15,7 +15,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: process.env.ORIGIN || 'http://localhost',
+    origin: process.env.ORIGIN || 'http://localhost:3000',
   })
 );
 

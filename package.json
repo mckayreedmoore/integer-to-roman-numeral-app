@@ -1,0 +1,25 @@
+{
+  "name": "romannumeralconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 120,
+    "endOfLine": "crlf"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
+  }
+}

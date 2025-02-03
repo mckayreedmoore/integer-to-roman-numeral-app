@@ -6,8 +6,7 @@
     "test": "test",
     "build": "tsc",
     "start": "node .",
-    "dev": "nodemon",
-    "format": "prettier --write ."
+    "dev": "nodemon"
   },
   "author": "",
   "license": "ISC",
@@ -32,14 +31,5 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
-  },
-  "prettier": {
-    "semi": true,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "trailingComma": "es5",
-    "tabWidth": 2,
-    "printWidth": 120,
-    "endOfLine": "crlf"
   }
 }

@@ -1,0 +1,9 @@
+node_modules/
+
+client/build
+client/node_modules
+
+Server/build
+server/coverage
+server/logs
+server/node_modules
