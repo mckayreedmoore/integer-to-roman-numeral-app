@@ -1,6 +1,6 @@
 import { describe, expect, test } from '@jest/globals';
 import request from 'supertest';
-import app from '../src/server';
+import app from '../server';
 
 describe('Integration Tests - /romannumeral API', () => {
   test('should return correct Roman numeral', async () => {
