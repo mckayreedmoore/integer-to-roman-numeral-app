@@ -7,17 +7,14 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const port = 8080;
+const port = process.env.PORT;
 const app = express();
 
 // sets various http headers for improved security
 app.use(helmet());
 
-app.use(
-  cors({
-    origin: process.env.ORIGIN || 'http://localhost:3000',
-  })
-);
+// default allow all state. Additional configuration required for production
+app.use(cors());
 
 app.use('/', router);
 
